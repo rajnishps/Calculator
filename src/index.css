@@ -1,0 +1,22 @@
+body {
+  height: 100%;
+  background-color: #ff999e;
+  background-image: radial-gradient(
+      at 78% 86%,
+      hsla(5, 89%, 65%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 6% 33%, hsla(174, 62%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 72% 25%, hsla(145, 81%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 7% 10%, hsla(241, 67%, 62%, 1) 0px, transparent 50%),
+    radial-gradient(at 23% 31%, hsla(16, 89%, 71%, 1) 0px, transparent 50%),
+    radial-gradient(at 31% 9%, hsla(69, 79%, 69%, 1) 0px, transparent 50%),
+    radial-gradient(at 82% 49%, hsla(83, 65%, 65%, 1) 0px, transparent 50%);
+}
+
+.calculator {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
